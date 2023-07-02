@@ -1,0 +1,46 @@
+Title: EK games 
+
+website for an indie game company 
+is meant to have a bit of inspiration motivation from 
+riot games website
+
+Want to have any type of gaming user who wants to learn about the companies games or play it. It has a job section (work with us)
+to also interact with professionals/students who are also looking to interact with the company monetary/job wise. 
+The main goal is to just be a presentable and good site for an indie came company that presents its users valid information so clients
+can play and download the games. Also so people can interact with the company in order to help it job wise or feedback wise. 
+It gives users a way to learn about and contact the company.  Just a front face for the company and to provide the goods(games)/services it 
+provides as a company.
+
+Persona:
+George is an casual, long-term college student gamer who is looking for more games to play
+while having already played alot of games. He likes getting information about his games and the 
+company. He is studying comp sci and would like to find out about the companies jobs and internships 
+because he is intrigued by our company. He likes to be updated on his games news. 
+
+Goals.
+ Download and play games 
+Learn more about and possibly apply for internships/ jobs related to the company
+Learn more abou the games he is playing and get updated on their news
+
+Semantic network is included in the mock up
+
+3 interactive processes meant to be or that can be implemented
+
+downloading game processes interactive in download page
+Following steps to download a game
+
+interactive video in the about us page
+where a video should play with accordance to the users choice
+
+the divergent/convergent will be implement with the search options below 
+
+search engine to find couple keywords in the system 
+filter faceted search with the search button on the header
+presumably a faceted search will pull down in order for users to utilize it
+
+in the support there is a form of communication 
+
+On the support page there's also a dropbox that will have a breadcrumb form of options in faceted search for issues
+which is a type of exploration (maybe)
+
+ 

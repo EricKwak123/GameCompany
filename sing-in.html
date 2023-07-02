@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Website</title>
+  <style>
+    /* CSS for Game Website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    /* Header styles */
+    header {
+      background-color: #0047AB;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .logo {
+      margin-right: 20px;
+    }
+    
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .header-nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    
+    .search-bar {
+      display: flex;
+      align-items: center;
+    }
+    
+    .sign-in-button {
+      background-color: #DEB841;
+      color: #FFFFFF;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    
+    /* Content styles */
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+    }
+    
+    .game-card {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      margin-bottom: 24px;
+    }
+    
+    .game-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border: 5px solid #DEB841;
+    }
+    
+    .game-card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      font-weight: bold;
+      color: #DEB841;
+      z-index: 2;
+    }
+    
+    .play-now-button {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #DEB841;
+      color: #FFFFFF;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      text-decoration: none;
+      z-index: 2;
+    }
+    
+    .company-text {
+      background-color: #FFFFFF;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+    
+    /* Footer styles */
+    footer {
+      background-color: #DEB841;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+    }
+    
+    .contact-us-text {
+      color: #FFFFFF;
+      margin-right: 20px;
+    }
+    
+    .support-button {
+      background-color: #0047AB;
+      color: #FFFFFF;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    
+    .social-media-buttons {
+      display: flex;
+      gap: 8px;
+    }
+    
+    .social-media-button {
+      width: 20px;
+      height: 20px;
+      background-color: #FFFFFF;
+    }
+    
+    .trademarks {
+      color: #FFFFFF;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav class="header-nav">
+      <a href="games.html">Games</a>
+      <a href="about.html">About Us</a>
+      <a href="work.html">Work with Us</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search">
+      <a href="sign-in.html" class="sign-in-button">Sign In</a>
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="game-card">
+      <img src="img/game1.jpg" alt="Game 1">
+      <h2 class="game-card-title" style="color: #DEB841;">Game 1</h2>
+      <a href="play.html" class="play-now-button">Play Heretics</a>
+    </div>
+
+    <div class="game-card">
+      <img src="img/game2.jpg" alt="Game 2">
+      <h2 class="game-card-title" style="color: #DEB841;">Game 2</h2>
+      <a href="play.html" class="play-now-button">Play Jungle</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="contact-us-text">
+      Contact Us: +1 123-456-7890
+    </div>
+    <a href="support.html" class="support-button">Support</a>
+    <div class="social-media-buttons">
+      <a src="img/instagram.png" href="instagram.com" class="social-media-button"></a>
+      <a src="img/facebook.png" href="facebook.com" class="social-media-button"></a>
+      <a src="img/linkedlin.png" href="linkedin.com" class="social-media-button"></a>
+      <a src="img/twitter.png" href="twitter.com" class="social-media-button"></a>
+    </div>
+    <div class="trademarks">
+      &copy; 2023 Game Website. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

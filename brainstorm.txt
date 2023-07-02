@@ -1,0 +1,62 @@
+website for an indie game company 
+is meant to have a lot of motivation from 
+riot games website
+
+a website to introduce clients to the company and it's games 
+
+
+*frontpage with a picture of the main game
+play now button 
+-> page for that game and 
+download now button
+download button 
+
+*two game pages 
+
+*about us page 
+
+
+*jobs section with a button that says 
+something like apply now! 
+I want the theme color to be golden brown yelloow 
+and league client crystal dark ish middle blue 
+
+*support
+
+george is an average college student gamer who is a long-term gamer 
+and has played alot of games and like getting information about his game and the 
+company. He is studying comp sci and would like to find out about the companies jobs and internships 
+because he likes the games companies. He likes to know about the games etc. 
+
+Goals. Download and play games 
+Learn more about and possibly apply for internships/ jobs
+Learn more abou the games he is playing and get updated on news
+
+
+3 interactive processes
+
+downloading game processes interactive in download page
+
+interactive video in the about us page
+
+search engine to find couple keywprds in the system 
+filter
+
+in the support there is a form of communication 
+
+and also a dropbox that will have a breadcrumb form of options in faceted search for issues
+which is a type of exploration
+
+
+
+make the footer and header from my original excep tI n
+
+#1e009f	(30,0,159)
+#0022d2	(0,34,210)
+#ffb800	(255,184,0)
+#d89b00	(216,155,0)
+#000000	(0,0,0)
+ 
+might be better to put like
+play "game name" instead of play now to 
+have more interactivity 
