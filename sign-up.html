@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EK Games - Work with Us</title>
+  <title>EK Games - Sign Up</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -72,40 +72,75 @@
   
     .content {
       flex: 1;
-      padding: 20px;
-    }
-    
-
-    .jobs-section {
       display: flex;
       align-items: center;
-      gap: 20px;
+      justify-content: center;
     }
     
-    .jobs-image {
-      width: auto;
+    .sign-up-container {
+      max-width: 400px;
+      padding: 20px;
+      background-color: #DEB841;
+      color: #FFFFFF;
+      text-align: center;
+    }
+    
+    .sign-up-container .company-logo {
+      width: 50px;
       height: 50px;
-      border: 2px solid #DEB841;
-      border-radius: 50%;
-    }
-    
-
-    .students-program-section {
-      margin-top: 30px;
-    }
-    
-    .students-program-header {
-      font-weight: bold;
-      font-size: 24px;
       margin-bottom: 20px;
     }
     
-    .students-program-image {
-      width: auto;
-      height: 50px;
-      border: 2px solid #DEB841;
+    .sign-up-container .form-group {
+      margin-bottom: 20px;
+      text-align: left;
     }
-       footer {
+    
+    .sign-up-container label {
+      display: block;
+      font-weight: bold;
+    }
+    
+    .sign-up-container input {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: none;
+    }
+    
+    .sign-up-container .agree-checkbox {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+    }
+    
+    .sign-up-container .agree-checkbox input {
+      margin-right: 8px;
+    }
+    
+    .sign-up-container .sign-up-link {
+      text-decoration: none;
+      color: #0047AB;
+      font-weight: bold;
+    }
+    
+    .sign-up-container .sign-up-button {
+      background-color: #0047AB;
+      color: #FFFFFF;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: box-shadow 0.15s;
+    }
+    
+    .sign-up-container .sign-up-button:hover {
+      box-shadow: 0 0 5px rgba(0, 71, 171, 0.3);
+    }
+    
+    footer {
       background-color: #0047AB;
       padding: 12px;
       display: flex;
@@ -170,26 +205,28 @@
   </header>
 
   <div class="content">
-    <div class="jobs-section">
-      <div>
-        <h2>Our Jobs</h2>
-        <p>Here at EK Games we house a dedicated and talented staff. Working as a team in order to achieve our vision and create the best enviroment possible. While 
-          maintaining the closest of a family we dedicate ourselves to professionalism and being a company of the highest quality. </p>
+    <div class="sign-up-container">
+      <img src="img/logo.jpg" alt="Company Logo" class="company-logo">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
       </div>
-      <div>
-        <img src="img/jobs.jpg" alt="Jobs" class="jobs-image">
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
       </div>
-    </div>
-
-  
-    <div class="students-program-section">
-      <h2 class="students-program-header">Apply to Our Students Program</h2>
-      <div>
-        <img src="img/students-program.jpg" alt="Students Program" class="students-program-image">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
       </div>
-      <p>We provide a wide range of internships and co-op programs related to our company. We intend on giving our community and industry
-        the best development and future we can provide. We intend to give the highest level of training and education an internship can. 
-</p>
+      <div class="agree-checkbox">
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree to the terms and conditions</label>
+      </div>
+      <p>
+        Already have an account? <a href="sign-in.html" class="sign-up-link">Sign In</a>
+      </p>
+      <button class="sign-up-button">Sign Up</button>
     </div>
   </div>
 
